@@ -17,8 +17,7 @@ func (d *Difference) ComputeDifference() int {
 }
 
 func main() {
-	a := Difference{[]int{3, 2, 5},
-		0}
+	a := Difference{[]int{3, 2, 5},0}
 	fmt.Println(a.ComputeDifference())
 
 }
